@@ -27,8 +27,9 @@ export const CardListContainer = styled.div`
 `;
 
 export const MainContainer = styled.div`
-  margin-left: 100px;
-  width: calc(100% - 100px);
+  margin-left: 20px;
+  margin-top: 0px;
+  width: calc(100% - 20px);
   display: flex;
   flex-direction: row;
   gap: 10px; /* Adiciona um pequeno espaçamento entre os elementos da esquerda e direita */
@@ -45,8 +46,6 @@ export const DeslocamentosContainer = styled.div`
 
 export const MapaContainer = styled.div`
   z-index: 0;
-  margin-bottom: 20px;
-  padding: 10px;
 `;
 
 export const DireitaContainer = styled.div`
@@ -57,7 +56,8 @@ export const DireitaContainer = styled.div`
 export const FatoresEdesviosContainer = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 10px; /* Adiciona espaçamento entre os containers de Fatores e Desvios */
+  gap: 10px;
+  margin-top: 5px;
 `;
 
 export const FatoresContainer = styled.div`

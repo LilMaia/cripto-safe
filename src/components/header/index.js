@@ -3,7 +3,7 @@ import * as S from "../header/styled";
 function Header() {
   return (
     <S.AppBar>
-      <S.WelcomeText>Olá, Rafael</S.WelcomeText>
+      <S.WelcomeText>Olá, Sara</S.WelcomeText>
 
       <S.RightContainer>
         <S.PercentageIcon />
